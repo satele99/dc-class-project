@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+}
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    color: black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.search {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.form-floating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.form-floating > button {
+    border: none;
+    background: none;
+}
+.row {
+    border-bottom: 1px solid black;
+} 
+.col-6 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+} 
+.table {
+    width: 900px;
+    height: 500px;
+    border: 1px solid black;
+} 
+.head {
+    background: rgb(158, 156, 156);
+}
